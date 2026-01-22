@@ -72,6 +72,23 @@ body {
     background-color: var(--light-color-bg);
     color: var(--color-text-primary);
 }
+@layer utilities {
+    .text-gradient-primary {
+        background: var(--light-gradient-primary);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+}
+.section-title {
+    background: var(--light-gradient-primary);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12px;
+}
 
 /* =========================================================
    Navigation
@@ -120,17 +137,13 @@ body {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 30px;
-    line-height: 44px;
-    letter-spacing: 0.006em;
     margin-top: 8px;
     color: #1a1a1f;
-    /* word-spacing: 4px; */
 }
 
 /* Span spacing + highlight */
 .heading-primary span {
-    padding-right: 4px;
-    margin-right: 4px;
+   
     display: inline-block;
     white-space: nowrap;
 }

@@ -4,7 +4,7 @@ import GradientButton from "../components/common/GradientButton";
 
 import Laptop from "../assets/images/sections/hero/laptop-main.png"
 import LaptopTop from "../assets/images/sections/hero/laptop-top.png"
-
+import Bg from "../assets/images/common/background.png"
 import LaptopBottom from "../assets/images/sections/hero/laptop-bottom.png"
 
 
@@ -117,7 +117,7 @@ function HeroSection() {
         <>
             <section
                 className="relative w-full min-h-screen bg-cover bg-center bg-bg px-6  xl:px-30 "
-                style={{ backgroundImage: "url('/images/Background.png')" }}
+                style={{ backgroundImage: `url(${Bg})` }}
             >
                 <div className="max-w-full mx-auto overflow-x-hidden min-h-screen flex flex-col md:flex-row lg:flex-row items-center justify-evenly sm:justify-around lg:justify-between lg:gap-12">
                     <div className="w-full lg:w-1/2 text-left sm:mt-5 ">
